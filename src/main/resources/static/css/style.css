@@ -1,16 +1,23 @@
+#body {
+	margin-left: 0%;
+}
 #header {
-	height: 10%;
+	margin-left: 0%;
+	width: 100%;
 }
 
 #logo {
+	margin-left: 0%;
 	float: left;
 	width: 10%;
-	height: 100%;
 	background-color: red;
 	text-align: center;
 }
 
 #logoText {
 	color: white;
-	font-size: 110%
+	font-style:italic;
+	font-size: 300%;
+	font-weight: 900;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
 }
