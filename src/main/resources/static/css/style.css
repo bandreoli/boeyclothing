@@ -3,7 +3,9 @@
 }
 #headerContainer {
 	width: 100%;
-	border-bottom: 1px solid black
+	border-bottom: 1px solid black;
+	display: inline-block;
+	border: 1px solid black;
 }
 #header {
 	margin-left: 0%;
@@ -28,14 +30,16 @@
 	text-decoration: none !important;
 }
 .headerItem {
-	text-align: center;
 	width: 15em;
 	height: 100%;
+	padding: 0;
 }
 .headerText {
-	display: inline-block;
-  	height: 100%;
-  	width: 80%;
+	display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+  	width: 100%;
 	color: black;
 	font-style: italic;
 	font-size: 150%;
@@ -50,4 +54,18 @@
 #womenMenu {
 	display: none;
 	height: 10em;
+}
+#menItems tr td {
+	text-align: center;
+}
+#menItems tr td a{
+	display: inline-block;
+  	height: 100%;
+  	width: 80%;
+	color: black;
+	font-style: italic;
+	font-size: 75%;
+	font-weight: 900;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+	text-decoration: none !important;
 }
