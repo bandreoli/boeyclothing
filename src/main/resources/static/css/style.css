@@ -1,23 +1,35 @@
 #body {
 	margin-left: 0%;
 }
+#headerContainer {
+	width: 100%;
+	border-bottom: 1px solid black
+}
 #header {
 	margin-left: 0%;
-	width: 100%;
 }
-
-#logo {
-	margin-left: 0%;
-	float: left;
-	width: 10%;
+#headerLogo {
 	background-color: red;
 	text-align: center;
+	width: 10em;
 }
-
-#logoText {
+#headerLogoText {
 	color: white;
-	font-style:italic;
+	font-style: italic;
 	font-size: 300%;
 	font-weight: 900;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+	text-decoration: none !important;
+}
+.headerItem {
+	text-align: center;
+	width: 15em;
+}
+.headerText {
+	color: black;
+	font-style: italic;
+	font-size: 150%;
+	font-weight: 900;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+	text-decoration: none !important;
 }
