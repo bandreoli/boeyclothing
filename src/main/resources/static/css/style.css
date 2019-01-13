@@ -8,12 +8,18 @@
 #header {
 	margin-left: 0%;
 }
+#headerRow {
+}
 #headerLogo {
 	background-color: red;
 	text-align: center;
 	width: 10em;
+	height: 100%;
 }
 #headerLogoText {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
 	color: white;
 	font-style: italic;
 	font-size: 300%;
@@ -24,12 +30,24 @@
 .headerItem {
 	text-align: center;
 	width: 15em;
+	height: 100%;
 }
 .headerText {
+	display: inline-block;
+  	height: 100%;
+  	width: 80%;
 	color: black;
 	font-style: italic;
 	font-size: 150%;
 	font-weight: 900;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
 	text-decoration: none !important;
+}
+#menMenu {
+	display: none;
+	height: 10em;
+}
+#womenMenu {
+	display: none;
+	height: 10em;
 }
