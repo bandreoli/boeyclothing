@@ -9,21 +9,20 @@
 <script src="js/header.js"></script>
 <body>
 <div id="all" onmouseleave="closeMenus()">
-	<div id="headerContainer">
-		<table id="header">
-			<tr id="headerRow">
-				<td id="headerLogo">
-					<a href="/" id="headerLogoText" onmouseover="closeMenus()">BOEY</a>
-				</td>
-				<td class="headerItem" id="menButton" onmouseover="menMenuOpen()">
-					<a href="" class="headerText">Men</a>
-				</td>
-				<td class="headerItem" id="womenButton" onmouseover="womenMenuOpen()">
-					<a href="" class="headerText">Women</a>
-				</td>
-			</tr>
-		</table>
-	</div>
+	<ul id="header">
+		<li id="headerLogo">
+			<a href="/" id="headerLogoText" onmouseover="closeMenus()">BOEY</a>
+		</li>
+		<li class="headerItem" id="menButton" onmouseover="menMenuOpen()">
+			<a href="" class="headerText">Men</a>
+		</li>
+		<li class="headerItem" id="womenButton" onmouseover="womenMenuOpen()">
+			<a href="" class="headerText">Women</a>
+		</li>
+		<li class="headerItem" id="arrivalsButton" onmouseover="arrivalsMenuOpen()">
+			<a href="" class="headerText">Arrivals</a>
+		</li>
+	</ul>
 	<div id="menMenu">
 		<table id="menItems">
 			<tr class="headerMenuRow">

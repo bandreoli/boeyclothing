@@ -1,25 +1,22 @@
 #body {
 	margin-left: 0%;
 }
-#headerContainer {
-	width: 100%;
-	border-bottom: 1px solid black;
-	display: inline-block;
-	border: 1px solid black;
-}
 #header {
-	margin-left: 0%;
-}
-#headerRow {
+	list-style-type: none;
+	border: 1px solid black;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 #headerLogo {
 	background-color: red;
 	text-align: center;
-	width: 10em;
-	height: 100%;
+	min-width: 10em;
 }
 #headerLogoText {
-	display: inline-block;
 	height: 100%;
 	width: 100%;
 	color: white;
@@ -30,16 +27,16 @@
 	text-decoration: none !important;
 }
 .headerItem {
-	width: 15em;
-	height: 100%;
-	padding: 0;
+	text-align: center;
+	border-left: 1px solid black;
+	display: block;
+	flex: 0 1 100%;
+	list-style-type: none;
 }
 .headerText {
-	display: flex;
-    align-items: center;
-    justify-content: center; 
-    height: 100%; 
-  	width: 100%;
+	padding: .6em;
+	height: 100%;
+	display: block;
 	color: black;
 	font-style: italic;
 	font-size: 150%;
@@ -52,6 +49,10 @@
 	height: 10em;
 }
 #womenMenu {
+	display: none;
+	height: 10em;
+}
+#arrivalsMenu {
 	display: none;
 	height: 10em;
 }
