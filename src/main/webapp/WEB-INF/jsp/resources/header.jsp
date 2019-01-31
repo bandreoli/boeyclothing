@@ -11,16 +11,16 @@
 <div id="all" onmouseleave="closeMenus()">
 	<ul id="header">
 		<li id="headerLogo">
-			<a href="/" id="headerLogoText" onmouseover="closeMenus()">BOEY</a>
+			<a href="/" id="headerLogoText" onmouseover="closeMenus()"><span class="navTag">BOEY</span></a>
 		</li>
 		<li class="headerItem" id="menButton" onmouseover="menMenuOpen()">
-			<a href="" class="headerText">Men</a>
+			<a href="" class="headerText"><span class="navTag">Men</span></a>
 		</li>
 		<li class="headerItem" id="womenButton" onmouseover="womenMenuOpen()">
-			<a href="" class="headerText">Women</a>
+			<a href="" class="headerText"><span class="navTag">Women</span></a>
 		</li>
 		<li class="headerItem" id="arrivalsButton" onmouseover="arrivalsMenuOpen()">
-			<a href="" class="headerText">Arrivals</a>
+			<a href="" class="headerText"><span class="navTag">Arrivals</span></a>
 		</li>
 	</ul>
 	<div id="menMenu">
