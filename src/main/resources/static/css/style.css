@@ -10,6 +10,7 @@
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	height: 4em;
 }
 #headerLogo {
 	background-color: red;
@@ -50,22 +51,17 @@
     display: table-cell;
     vertical-align: middle;
 }
-#menMenu {
+.menuItems {
 	display: none;
-	height: 10em;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
 }
-#womenMenu {
-	display: none;
-	height: 10em;
-}
-#arrivalsMenu {
-	display: none;
-	height: 10em;
-}
-#menItems tr td {
+.menuItems ul li {
 	text-align: center;
+	list-style-type: none;
 }
-#menItems tr td a{
+.menuItems ul li a{
 	display: inline-block;
   	height: 100%;
   	width: 80%;
