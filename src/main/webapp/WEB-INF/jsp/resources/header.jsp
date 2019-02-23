@@ -15,42 +15,103 @@
 		</li>
 		<li class="headerItem" id="menButton" onmouseover="menMenuOpen()">
 			<a href="" class="headerText"><span class="navTag">Men</span></a>
+			<div id="menMenu" class="menuItems">
+				<ul id="menItems">
+					<li>
+						<a>Shirts</a>
+					</li>
+					<li>
+						<a>Longsleeves</a>
+					</li>
+					<li>
+						<a>Hoodies</a>
+					</li>
+					<li>
+						<a>Outerwear</a>
+					</li>
+					<li>
+						<a>Hats</a>
+					</li>
+					<li>
+						<a>Sweats</a>
+					</li>
+				</ul>
+			</div>
 		</li>
 		<li class="headerItem" id="womenButton" onmouseover="womenMenuOpen()">
 			<a href="" class="headerText"><span class="navTag">Women</span></a>
+			<div id="womenMenu" class="menuItems">
+				<ul id="womenItems">
+					<li>
+						<a>Shirts</a>
+					</li>
+					<li>
+						<a>Longsleeves</a>
+					</li>
+					<li>
+						<a>Hoodies</a>
+					</li>
+					<li>
+						<a>Outerwear</a>
+					</li>
+					<li>
+						<a>Hats</a>
+					</li>
+					<li>
+						<a>Sweats</a>
+					</li>
+				</ul>
+			</div>
 		</li>
 		<li class="headerItem" id="arrivalsButton" onmouseover="arrivalsMenuOpen()">
 			<a href="" class="headerText"><span class="navTag">Arrivals</span></a>
+			<div id="arrivalsMenu" class="menuItems">
+				<ul id="arrivalsItems">
+					<li>
+						<a>Shirts</a>
+					</li>
+					<li>
+						<a>Longsleeves</a>
+					</li>
+					<li>
+						<a>Hoodies</a>
+					</li>
+					<li>
+						<a>Outerwear</a>
+					</li>
+					<li>
+						<a>Hats</a>
+					</li>
+					<li>
+						<a>Sweats</a>
+					</li>
+				</ul>
+			</div>
 		</li>
-	</ul>
-	<div id="menMenu">
-		<table id="menItems">
-			<tr class="headerMenuRow">
-				<td>
-					<a>Shirts</a>
-				</td>
-				<td>
-					<a>Longsleeves</a>
-				</td>
-				<td>
-					<a>Hoodies</a>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<a>Outerwear</a>
-				</td>
-				<td>
-					<a>Hats</a>
-				</td>
-				<td>
-					<a>Sweats</a>
-				</td>
-			</tr>
-		</table>
-	</div>
-	<div id="womenMenu">
-		<table id="womenItems">
-		</table>
-	</div>	
+		<li class="headerItem" id="saleButton" onmouseover="saleMenuOpen()">
+			<a href="" class="headerText"><span class="navTag">Sale</span></a>
+			<div id="saleMenu" class="menuItems">
+				<ul id="saleItems">
+					<li>
+						<a>Shirts</a>
+					</li>
+					<li>
+						<a>Longsleeves</a>
+					</li>
+					<li>
+						<a>Hoodies</a>
+					</li>
+					<li>
+						<a>Outerwear</a>
+					</li>
+					<li>
+						<a>Hats</a>
+					</li>
+					<li>
+						<a>Sweats</a>
+					</li>
+				</ul>
+			</div>
+		</li>
+	</ul>	
 </div>
